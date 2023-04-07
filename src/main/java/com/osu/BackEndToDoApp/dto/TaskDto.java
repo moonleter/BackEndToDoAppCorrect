@@ -74,7 +74,7 @@ public class TaskDto {
     }
 
     public Boolean isCompleted() {
-        return completed;
+        return completed != null ? completed : false;
     }
 
     public void setCompleted(Boolean completed) {
