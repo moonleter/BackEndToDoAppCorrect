@@ -28,7 +28,7 @@ public class Subtask {
     public Subtask(long id, String name, Boolean completed, String description, Task task) {
         this.id = id;
         this.name = name;
-        this.completed = completed;
+        this.completed = completed != null ? completed : false;
         this.description = description;
         this.task = task;
     }

@@ -16,15 +16,16 @@ public class SubtaskDto {
     private long taskId;
 
     public SubtaskDto() {
+        this.completed=false;
     }
 
     public SubtaskDto(long id, String name, String description, Boolean completed, long taskId) {
         this.id = id;
         this.name = name;
         this.description = description;
-        this.completed = completed;
+        this.completed = completed != null ? completed : false;
         this.taskId = taskId;
-        completed = false;
+
     }
 
 
@@ -45,7 +46,7 @@ public class SubtaskDto {
     }
 
     public Boolean isCompleted() {
-        return completed;
+        return completed != null ? completed : false;
     }
 
     public void setCompleted(Boolean completed) {
