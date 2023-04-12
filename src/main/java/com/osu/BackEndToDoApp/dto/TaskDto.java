@@ -26,7 +26,7 @@ public class TaskDto {
     private List<Category> category;
 
 
-    public TaskDto() {
+    public TaskDto() {//využívá se při testu
     }
 
     public TaskDto(long id, String name, String description, Boolean completed, LocalDateTime created, Priority priority, List<Category> category) {
