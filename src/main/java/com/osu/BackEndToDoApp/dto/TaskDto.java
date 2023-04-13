@@ -2,6 +2,8 @@ package com.osu.BackEndToDoApp.dto;
 
 import com.osu.BackEndToDoApp.model.Category;
 import com.osu.BackEndToDoApp.model.Priority;
+import jakarta.persistence.EnumType;
+import jakarta.persistence.Enumerated;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Size;
 
@@ -21,7 +23,7 @@ public class TaskDto {
     private Boolean completed;
     private LocalDateTime created;
 
-    //@EnumStringValid(enumClass = Priority.class, message = "Invalid priority value") //todo
+    @Enumerated(EnumType.STRING) // zajištění, aby priority nabývala pouze hodnot z ENUMU - "MEDIUM", "HIGH", "LOW"
     private Priority priority;
     private List<Category> category;
 
