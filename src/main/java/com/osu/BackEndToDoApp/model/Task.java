@@ -39,16 +39,6 @@ public class Task {
         this.completed = false; //todo možná bez this?
     }
 
-    //*public Task(long id, String name, String description, boolean completed, List<Subtask> subtasks, List<Category> category, LocalDateTime created, Priority priority) { //konstruktor s všemi parametry
-        //this.id = id;
-        //this.name = name;
-        //this.description = description;
-        //this.completed = completed;
-        //this.subtasks = subtasks;  //todo možná = new Arraylist<>(); původní konstruktor   ASI SMAZAT?????????????
-        //this.category = category;
-        //this.created = created;
-      //  this.priority=priority;
-    //}
     public Task(long id, String name, String description, boolean completed, List<Subtask> subtasks, List<Category> category, LocalDateTime created, Priority priority) {
         this.id = id;
         this.name = name;
