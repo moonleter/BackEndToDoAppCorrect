@@ -41,6 +41,10 @@ public class SubtaskController {
     public List<Subtask> searchByName(@PathVariable("name") String name) {
         return subtaskService.getSubTaskByName(name);
     }
+    @DeleteMapping("/subtasks/delete/{id}")
+    public void deleteTaskById(@PathVariable("id") Long id) {
+        subtaskService.deleteSubTaskById(id);
+    }
 }
 
 

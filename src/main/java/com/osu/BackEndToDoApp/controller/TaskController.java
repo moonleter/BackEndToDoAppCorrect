@@ -32,7 +32,7 @@ public class TaskController {
         return taskService.getAllTasks();
     }
 
-    @GetMapping("/tasks/{id}") //endopoint
+    @GetMapping("/tasks/{id}") //endopoint - search tasks by ID
     public Task get(@PathVariable("id") long id) {
         return taskService.getTaskById(id);
     }
