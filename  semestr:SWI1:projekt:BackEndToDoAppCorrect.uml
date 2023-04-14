@@ -3,29 +3,29 @@
   <ID>JAVA</ID>
   <OriginalElement>/Users/simonkunz/Documents/VŠ/4. semestr/SWI1/projekt/BackEndToDoAppCorrect</OriginalElement>
   <nodes>
-    <node x="2585.741260388682" y="-238.07373118707756">com.osu.BackEndToDoApp.repository.CategoryRepository</node>
-    <node x="-475.05602158580484" y="-504.03275929250367">com.osu.BackEndToDoApp.model.Subtask</node>
-    <node x="1829.7678018469167" y="-238.07373118707756">com.osu.BackEndToDoApp.repository.SubtaskRepository</node>
-    <node x="-694.8792656879393" y="597.8941842550992">com.osu.BackEndToDoApp.dto.SubtaskDto</node>
-    <node x="1893.9900614552316" y="1026.4882688889816">com.osu.BackEndToDoApp.service.SubtaskServiceImpl</node>
-    <node x="111.01762222197823" y="607.3360981108183">com.osu.BackEndToDoApp.BackEndToDoAppApplication</node>
-    <node x="1108.4832947563382" y="-238.07373118707756">com.osu.BackEndToDoApp.repository.TaskRepository</node>
-    <node x="2677.5956220135695" y="644.798186397073">com.osu.BackEndToDoApp.controller.CategoryController</node>
-    <node x="1080.0944097338488" y="172.13447280675882">com.osu.BackEndToDoApp.service.TaskService</node>
-    <node x="-885.1296653935879" y="-495.1007677325233">com.osu.BackEndToDoApp.model.Category</node>
     <node x="743.5116267182296" y="498.4400518709032">com.osu.BackEndToDoApp.model.Priority</node>
-    <node x="482.01162671822965" y="-504.03275929250367">com.osu.BackEndToDoApp.dto.TaskDto</node>
-    <node x="1092.1228873979223" y="1960.6390643794462">com.osu.BackEndToDoApp.BackEndToDoAppApplicationTests</node>
-    <node x="117.01762222197817" y="737.8235625635955">com.osu.BackEndToDoApp.exception.RecordNotFoundException</node>
-    <node x="1937.9905614552317" y="86.42513878663723">com.osu.BackEndToDoApp.service.SubtaskService</node>
-    <node x="1065.1528913009597" y="1014.8858739501432">com.osu.BackEndToDoApp.service.TaskServiceImpl</node>
-    <node x="2701.089208314194" y="41.600583487969885">com.osu.BackEndToDoApp.service.CategoryService</node>
-    <node x="2727.6072487317992" y="1026.4882688889816">com.osu.BackEndToDoApp.service.CategoryServiceImpl</node>
-    <node x="-278.11079102825704" y="607.3360981108183">com.osu.BackEndToDoApp.dto.CategoryDto</node>
+    <node x="1108.4832947563382" y="-238.07373118707756">com.osu.BackEndToDoApp.repository.TaskRepository</node>
+    <node x="-694.8792656879393" y="597.8941842550992">com.osu.BackEndToDoApp.dto.SubtaskDto</node>
+    <node x="-885.1296653935879" y="-495.1007677325233">com.osu.BackEndToDoApp.model.Category</node>
     <node x="-15.982377778021771" y="-503.53275929250384">com.osu.BackEndToDoApp.model.Task</node>
-    <node x="1065.1528913009597" y="1463.6788240198957">com.osu.BackEndToDoApp.service.TaskServiceImplTest</node>
+    <node x="117.01762222197817" y="737.8235625635955">com.osu.BackEndToDoApp.exception.RecordNotFoundException</node>
+    <node x="1893.9900614552316" y="1026.4882688889816">com.osu.BackEndToDoApp.service.SubtaskServiceImpl</node>
+    <node x="-278.11079102825704" y="607.3360981108183">com.osu.BackEndToDoApp.dto.CategoryDto</node>
     <node x="1065.1528913009597" y="624.959028105426">com.osu.BackEndToDoApp.controller.TaskController</node>
+    <node x="2727.6072487317992" y="1026.4882688889816">com.osu.BackEndToDoApp.service.CategoryServiceImpl</node>
+    <node x="1937.9905614552317" y="86.42513878663723">com.osu.BackEndToDoApp.service.SubtaskService</node>
+    <node x="2677.5956220135695" y="644.798186397073">com.osu.BackEndToDoApp.controller.CategoryController</node>
+    <node x="482.01162671822965" y="-504.03275929250367">com.osu.BackEndToDoApp.dto.TaskDto</node>
+    <node x="1829.7678018469167" y="-238.07373118707756">com.osu.BackEndToDoApp.repository.SubtaskRepository</node>
+    <node x="2701.089208314194" y="41.600583487969885">com.osu.BackEndToDoApp.service.CategoryService</node>
+    <node x="1065.1528913009597" y="1014.8858739501432">com.osu.BackEndToDoApp.service.TaskServiceImpl</node>
+    <node x="1065.1528913009597" y="1463.6788240198957">com.osu.BackEndToDoApp.service.TaskServiceImplTest</node>
+    <node x="1080.0944097338488" y="172.13447280675882">com.osu.BackEndToDoApp.service.TaskService</node>
+    <node x="1092.1228873979223" y="1960.6390643794462">com.osu.BackEndToDoApp.BackEndToDoAppApplicationTests</node>
+    <node x="111.01762222197823" y="607.3360981108183">com.osu.BackEndToDoApp.BackEndToDoAppApplication</node>
+    <node x="-475.05602158580484" y="-504.03275929250367">com.osu.BackEndToDoApp.model.Subtask</node>
     <node x="1935.664172566343" y="675.9473317920038">com.osu.BackEndToDoApp.controller.SubtaskController</node>
+    <node x="2585.741260388682" y="-238.07373118707756">com.osu.BackEndToDoApp.repository.CategoryRepository</node>
   </nodes>
   <notes />
   <edges>
@@ -39,6 +39,14 @@
       <point x="2060.267412958028" y="21.84675368418013" />
       <point x="-3.8888888889232476E-4" y="31.5" />
     </edge>
+    <edge source="com.osu.BackEndToDoApp.model.Category" target="com.osu.BackEndToDoApp.model.Task" relationship="TO_ONE">
+      <point x="135.0" y="-0.0" />
+      <point x="-615.1296653935879" y="350.01283935213723" />
+      <point x="231.69522407301457" y="350.01283935213723" />
+      <point x="231.69522407301457" y="-265.16965586486765" />
+      <point x="186.01762222197823" y="-265.16965586486765" />
+      <point x="-0.0" y="-236.5" />
+    </edge>
     <edge source="com.osu.BackEndToDoApp.service.TaskServiceImpl" target="com.osu.BackEndToDoApp.service.TaskService" relationship="REALIZATION">
       <point x="114.75" y="-164.5" />
       <point x="1409.4028913009597" y="976.1343336163739" />
@@ -47,25 +55,17 @@
       <point x="1194.8444097338488" y="296.0" />
       <point x="-114.75" y="152.0" />
     </edge>
-    <edge source="com.osu.BackEndToDoApp.model.Category" target="com.osu.BackEndToDoApp.model.Task" relationship="TO_ONE">
-      <point x="135.0" y="-0.0" />
-      <point x="-615.1296653935879" y="-49.5163009868719" />
-      <point x="-504.974003743533" y="-49.5163009868719" />
-      <point x="-504.974003743533" y="366.0" />
-      <point x="186.01762222197823" y="366.0" />
-      <point x="-0.0" y="-236.5" />
-    </edge>
     <edge source="com.osu.BackEndToDoApp.dto.TaskDto" target="com.osu.BackEndToDoApp.model.Category" relationship="TO_MANY">
       <point x="-0.0" y="-237.0" />
       <point x="688.5116267182296" y="500.5462854189244" />
-      <point x="-750.1296653935879" y="500.5462854189244" />
-      <point x="-0.0" y="140.5" />
+      <point x="-788.5440200484824" y="500.5462854189244" />
+      <point x="-38.41435465489451" y="140.5" />
     </edge>
     <edge source="com.osu.BackEndToDoApp.model.Task" target="com.osu.BackEndToDoApp.model.Subtask" relationship="TO_MANY">
       <point x="-15.0" y="-236.5" />
-      <point x="171.01762222197823" y="366.0" />
-      <point x="-330.55602158580484" y="366.0" />
-      <point x="-15.0" y="177.0" />
+      <point x="171.01762222197823" y="75.94722824591918" />
+      <point x="-289.44617991987207" y="75.94722824591918" />
+      <point x="26.109841665932777" y="177.0" />
     </edge>
     <edge source="com.osu.BackEndToDoApp.service.SubtaskServiceImpl" target="com.osu.BackEndToDoApp.service.SubtaskService" relationship="REALIZATION">
       <point x="-100.75" y="-104.5" />
@@ -161,17 +161,19 @@
       <point x="1294.6528913009597" y="1663.6788240198957" />
       <point x="-0.0" y="164.5" />
     </edge>
-    <edge source="com.osu.BackEndToDoApp.model.Task" target="com.osu.BackEndToDoApp.model.Priority" relationship="TO_ONE">
-      <point x="194.5" y="-236.5" />
-      <point x="380.51762222197823" y="307.0" />
-      <point x="839.0116267182296" y="307.0" />
-      <point x="-0.0" y="81.0" />
-    </edge>
     <edge source="com.osu.BackEndToDoApp.model.Subtask" target="com.osu.BackEndToDoApp.model.Task" relationship="TO_ONE">
       <point x="-0.0" y="177.0" />
-      <point x="-315.55602158580484" y="366.0" />
-      <point x="186.01762222197823" y="366.0" />
+      <point x="-315.55602158580484" y="228.6516694091573" />
+      <point x="186.01762222197823" y="228.6516694091573" />
       <point x="-0.0" y="-236.5" />
+    </edge>
+    <edge source="com.osu.BackEndToDoApp.model.Task" target="com.osu.BackEndToDoApp.model.Priority" relationship="TO_ONE">
+      <point x="194.5" y="-236.5" />
+      <point x="380.51762222197823" y="273.38743967696723" />
+      <point x="772.7303063814743" y="273.38743967696723" />
+      <point x="772.7303063814743" y="570.0084590070619" />
+      <point x="839.0116267182296" y="570.0084590070619" />
+      <point x="-0.0" y="81.0" />
     </edge>
     <edge source="com.osu.BackEndToDoApp.controller.TaskController" target="com.osu.BackEndToDoApp.service.TaskService" relationship="TO_ONE">
       <point x="-92.67361111111131" y="-152.5" />
@@ -180,7 +182,7 @@
       <point x="-0.0" y="152.0" />
     </edge>
   </edges>
-  <settings layout="Hierarchic" zoom="0.6354643869543237" showDependencies="true" x="299.4547016061463" y="307.70277322116306" />
+  <settings layout="Hierarchic" zoom="0.6154196771330634" showDependencies="true" x="359.09422599785125" y="210.07195185783496" />
   <SelectedNodes />
   <Categories>
     <Category>Constructors</Category>
