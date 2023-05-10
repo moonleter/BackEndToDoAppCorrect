@@ -22,10 +22,16 @@ public class BackEndToDoAppApplication {
 	public class WebConfig implements WebMvcConfigurer {
 
 		@Override
-		public void addCorsMappings(CorsRegistry registry) {
-			registry.addMapping("/**");
+		public void addCorsMappings(CorsRegistry registry) { //cors settings for the whole project
+			registry.addMapping("/**")
+					.allowedOriginPatterns("*")
+					.allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
+					.allowedHeaders("*")
+					.allowCredentials(true)
+					.maxAge(3600);
 		}
 	}
+
 
 
 }
