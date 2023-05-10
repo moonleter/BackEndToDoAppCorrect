@@ -22,7 +22,7 @@ public class TaskController {
         return taskService.createTask(newTask);
     }
 
-    @PutMapping("tasks/update")
+    @PutMapping("tasks")
     public Task update(@Valid @RequestBody TaskDto task) {
         return taskService.update(task);
     }
