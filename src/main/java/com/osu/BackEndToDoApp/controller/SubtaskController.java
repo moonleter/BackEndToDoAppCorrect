@@ -22,7 +22,7 @@ public class SubtaskController {
         return subtaskService.createSubTask(newSubtask);
     }
 
-    @PutMapping("/subtasks")
+    @PutMapping("/subtasks/update")
     public Subtask update(@Valid @RequestBody SubtaskDto subtask) {
         return subtaskService.update(subtask);
     }
