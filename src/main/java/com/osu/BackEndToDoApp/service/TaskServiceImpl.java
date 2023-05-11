@@ -60,9 +60,6 @@ public class TaskServiceImpl implements TaskService {
             if (task.getName() != null) {
                 fromDb.setName(task.getName());
             }
-            if (task.getCreated() != null) {
-                fromDb.setCreated(task.getCreated());
-            }
             if (task.isCompleted() != null) {
                 fromDb.setCompleted(task.isCompleted());
             }
