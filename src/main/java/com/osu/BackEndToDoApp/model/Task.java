@@ -23,7 +23,6 @@ public class Task {
     private Priority priority;
 
 
-
     @OneToMany(cascade = CascadeType.REMOVE, mappedBy = "task", fetch = FetchType.EAGER)
     private List<Subtask> subtasks;
 
