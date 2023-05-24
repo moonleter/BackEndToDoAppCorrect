@@ -2,7 +2,7 @@ package com.osu.BackEndToDoApp.dto;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Size;
-
+//this class validates data before manuplating the DB
 public class SubtaskDto {
     private long id;
 
