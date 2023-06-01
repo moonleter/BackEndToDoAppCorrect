@@ -43,7 +43,7 @@ public class TaskServiceImplTest {
         taskDto.setCompleted(false);
         taskDto.setCreated(LocalDateTime.now());
         taskDto.setPriority(Priority.LOW);
-        // Nastavte další hodnoty, pokud je třeba
+        //Můžu nastavit další atributy mockovaného objektu
 
         Task expectedTask = new Task(1L, "Task 1", "Description 1", false, null, null, LocalDateTime.now(), Priority.LOW);
 
