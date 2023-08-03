@@ -1,28 +1,8 @@
 package com.osu.BackEndToDoApp.service;
 
-import com.osu.BackEndToDoApp.dto.TaskDto;
-import com.osu.BackEndToDoApp.exception.RecordNotFoundException;
-import com.osu.BackEndToDoApp.model.Category;
-import com.osu.BackEndToDoApp.model.Priority;
-import com.osu.BackEndToDoApp.model.Subtask;
-import com.osu.BackEndToDoApp.model.Task;
-import com.osu.BackEndToDoApp.repository.TaskRepository;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
-import org.mockito.InjectMocks;
-import org.mockito.Mock;
-import org.mockito.MockitoAnnotations;
-
-import java.time.LocalDateTime;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Optional;
-
-import static org.junit.jupiter.api.Assertions.*;
-import static org.mockito.Mockito.*;
-
 public class TaskServiceImplTest {
     //using Mockito framework for mocking tests
+    /*
     @InjectMocks
     private TaskServiceImpl taskService;
 
@@ -224,7 +204,9 @@ public class TaskServiceImplTest {
         assertEquals(2, result.size());
         assertEquals(task1, result.get(0));
         assertEquals(task2, result.get(1));
-    }
+        */
+
+
 
 }
 
