@@ -4,5 +4,5 @@ Then got to localhost/phpmyadmin and create a database with name "ToDoList", aft
 
 
 Documentation:
-blob:https://365osu-my.sharepoint.com/0912045e-b8f3-4f67-962d-193c0cc5b8e9![image](https://github.com/moonleter/BackEndToDoAppCorrect/assets/106592140/f40c9ee0-7d66-4475-b04c-f75e8d3b55cd)
+
 
