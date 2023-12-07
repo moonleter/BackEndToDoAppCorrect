@@ -2,6 +2,7 @@ package com.osu.BackEndToDoApp.dto;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Size;
+
 //this class validates data before manuplating the DB
 public class SubtaskDto {
     private long id;
@@ -16,7 +17,7 @@ public class SubtaskDto {
     private long taskId;
 
     public SubtaskDto() {
-        this.completed=false;
+        this.completed = false;
     }
 
     public SubtaskDto(long id, String name, String description, Boolean completed, long taskId) {
@@ -69,5 +70,5 @@ public class SubtaskDto {
         this.description = description;
     }
 
-    
+
 }

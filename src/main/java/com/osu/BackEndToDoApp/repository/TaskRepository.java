@@ -12,10 +12,15 @@ public interface TaskRepository extends JpaRepository<Task, Long> {
     List<Task> findAllTasksByPriority(Priority priority);
 
     List<Task> findAllByOrderByPriorityAsc();
+
     List<Task> findAllByOrderByPriorityDesc();
+
     List<Task> findAllByOrderByCategoryAsc();
+
     List<Task> findAllByOrderByCategoryDesc();
+
     List<Task> findAllByOrderByNameAsc();
+
     List<Task> findAllByOrderByNameDesc();
 
 

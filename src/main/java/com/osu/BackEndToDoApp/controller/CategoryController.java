@@ -31,7 +31,7 @@ public class CategoryController {
         return categoryService.getAllCategories();
     }
 
-    @GetMapping("/categories/{id}") //endopoint PostMan: http://localhost:8080/categories/1
+    @GetMapping("/categories/{id}") //endpoint PostMan: http://localhost:8080/categories/1
     public Category get(@PathVariable("id") long id) {
         return categoryService.getCategoryById(id);
     }

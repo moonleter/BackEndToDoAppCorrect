@@ -67,6 +67,7 @@ public class TaskController {
     public List<Task> searchTasksAndSubtasksandCategoryByName(@PathVariable("name") String name) {
         return taskService.searchTasksAndSubtaskandCategorysByName(name);
     }
+
     @DeleteMapping("/tasks/delete/{id}")
     public void deleteTaskById(@PathVariable("id") Long id) {
         taskService.deleteTaskById(id);

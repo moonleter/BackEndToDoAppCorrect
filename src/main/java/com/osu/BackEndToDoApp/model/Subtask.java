@@ -22,7 +22,7 @@ public class Subtask {
     //gettery a settery
 
     public Subtask() { //bezparametrcký konstruktor
-    this.completed=false;
+        this.completed = false;
     }
 
     public Subtask(long id, String name, Boolean completed, String description, Task task) {

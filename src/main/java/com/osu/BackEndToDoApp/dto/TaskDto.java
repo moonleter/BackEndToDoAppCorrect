@@ -9,6 +9,7 @@ import jakarta.validation.constraints.Size;
 
 import java.time.LocalDateTime;
 import java.util.List;
+
 //this class validates data before manuplating the DB
 public class TaskDto {
     private long id;
@@ -19,7 +20,7 @@ public class TaskDto {
     @Size(max = 500, message = "Task description cannot exceed 500 characters")
     private String description;
 
-    
+
     private Boolean completed;
     private LocalDateTime created;
 
